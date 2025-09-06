@@ -1,6 +1,6 @@
-# Neo.Mailing
+# MGA.Mailing
 
-`Neo.Mailing` is a lightweight .NET library for **sending emails via SMTP** with optional **HTML templating** powered by [Scriban](https://github.com/scriban/scriban).
+`MGA.Mailing` is a lightweight .NET library for **sending emails via SMTP** with optional **HTML templating** powered by [Scriban](https://github.com/scriban/scriban).
 
 It provides a clean abstraction (`IEmailSender`) and a flexible SMTP implementation (`SmtpEmailSender`) that supports:
 
@@ -40,13 +40,13 @@ It provides a clean abstraction (`IEmailSender`) and a flexible SMTP implementat
 From NuGet:
 
 ```sh
-dotnet add package Neo.Mailing
+dotnet add package MGA.Mailing
 ```
 
 Or reference locally in your solution:
 
 ```xml
-<ProjectReference Include="..\Neo.Mailing\Neo.Mailing.csproj" />
+<ProjectReference Include="..\MGA.Mailing\MGA.Mailing.csproj" />
 ```
 
 ---
@@ -56,7 +56,7 @@ Or reference locally in your solution:
 ### Manual Instantiation
 
 ```csharp
-using Neo.Mailing;
+using MGA.Mailing;
 
 var settings = new SmtpSettings
 {
@@ -147,10 +147,10 @@ await emailSender.SendWithAttachmentsAsync(
 
 ## 🎨 Templating (Scriban)
 
-`Neo.Mailing` includes `TemplateRenderer` to render Scriban templates with model binding and caching.
+`MGA.Mailing` includes `TemplateRenderer` to render Scriban templates with model binding and caching.
 
 ```csharp
-using Neo.Mailing;
+using MGA.Mailing;
 
 var template = "<p>Hello {{ name }}!</p><p>Your OTP: {{ otp }}</p>";
 var model = new { name = "John", otp = "123456" };

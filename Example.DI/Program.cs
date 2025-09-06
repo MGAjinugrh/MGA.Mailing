@@ -1,5 +1,5 @@
 using Example.DI.Services;
-using Neo.Mailing;
+using MGA.Mailing;
 
 var builder = WebApplication.CreateBuilder(args);
 

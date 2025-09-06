@@ -1,4 +1,4 @@
-﻿using Neo.Mailing;
+﻿using MGA.Mailing;
 
 namespace Example.DI.Services;
 

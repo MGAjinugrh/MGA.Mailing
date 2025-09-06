@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.Options;
-using Neo.Mailing;
+using MGA.Mailing;
 
 const string FromName = "Test Sender";
 const string FromAddress = "test.sender@myapp.com";
 const string ToAddress1 = "test.recipient1@myapp.com";
 const string ToAddress2 = "test.recipient2@myapp.com";
-const string AppName = "Neo.Mailing Demo";
+const string AppName = "MGA.Mailing Demo";
 const string ToName = "User";
 const string DashboardLink = "http://localhost";
 
