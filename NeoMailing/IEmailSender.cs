@@ -3,7 +3,7 @@ using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace MGA.Mailing;
+namespace NeoMailing;
 
 /// <summary>
 /// Abstraction for sending email messages through a transport mechanism (e.g. SMTP).

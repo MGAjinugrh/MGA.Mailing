@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace MGA.Mailing;
+namespace NeoMailing;
 
 /// <summary>
 /// SMTP implementation of <see cref="IEmailSender"/> using MailKit.

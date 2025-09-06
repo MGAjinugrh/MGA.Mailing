@@ -1,4 +1,4 @@
-﻿namespace MGA.Mailing;
+﻿namespace NeoMailing;
 
 /// <summary>
 /// Defines supported authentication modes for SMTP.

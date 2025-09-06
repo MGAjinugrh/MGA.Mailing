@@ -3,7 +3,7 @@ using Scriban.Runtime;
 using System;
 using System.Collections.Concurrent;
 
-namespace MGA.Mailing;
+namespace NeoMailing;
 
 /// <summary>
 /// Provides methods for rendering Scriban templates with caching.

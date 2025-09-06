@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MGA.Mailing;
+namespace NeoMailing;
 
 /// <summary>
 /// Extension methods for registering <see cref="IEmailSender"/> in DI.

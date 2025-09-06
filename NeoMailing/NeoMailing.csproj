@@ -9,8 +9,8 @@
     <Authors>Muhammad Guruh Ajinugroho</Authors>
     <Description>A library for sending emails with templating support.</Description>
     <PackageTags>email;mailing;smtp;templating</PackageTags>
-    <PackageId>MGA.Mailing</PackageId>
-    <Version>1.0.2</Version>
+    <PackageId>NeoMailing</PackageId>
+    <Version>1.0.3</Version>
     <RepositoryUrl>https://github.com/MGAjinugrh/Neo.Mailing</RepositoryUrl>
     <PackageProjectUrl>https://github.com/MGAjinugrh/Neo.Mailing</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
